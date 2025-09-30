@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> // для setw і setfill
+#include <iomanip>
 using namespace std;
 
 int main() {
