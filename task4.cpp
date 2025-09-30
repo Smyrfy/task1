@@ -1,14 +1,17 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main() {
-    int num;
-    cout << "Введіть число: ";
-    cin >> num;
+    const char* str = "Length";
+    
+    int length = 0;
 
-    string str = to_string(num); // конвертуває число в рядочокчоккчокчко
-    cout << "Число як рядок: " << str << " рядків." << endl;
+    while (str[length] != '\0') {
+        length++;
+    }
+
+    cout << "Row: " << str << endl;
+    cout << "Row length: " << length << " symbols." << endl;
 
     return 0;
 }
