@@ -19,7 +19,7 @@ int main() {
     std::cout << "Second number: ";
     std::cin >> num2;
 
-    // Ensure num1 is less than or equal to num2
+    
     if (num1 > num2) {
         std::swap(num1, num2);
     }
