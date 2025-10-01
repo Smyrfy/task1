@@ -1,10 +1,17 @@
-# Homework
-## task1
+   # Homework
+   ###table of countents
+- [task№1](task1)
+- [task№2](task2)
+- [task№3](task3)
+- [task№4](task4)
+- [task№5](task5)
+  
+   ## task1
 The program in C++ is designed to calculate the sum of all even numbers in a given range. The user enters two numbers, and if the first is greater than the second, the program automatically swaps them using std::swap to ensure the correct order of the boundaries.
 The calculation is performed by the function even_sum, which is implemented recursively. It checks each number: if it is even — adds it to the sum and moves to the next even one; if it is odd — skips it and moves further.
 For example, for the numbers 3 and 10 the program will sum 4, 6, 8 and 10, obtaining the result 28. This approach demonstrates the use of recursion instead of loops, automatic processing of range boundaries, and the work with conditional constructions in C++.
 
-## task2
+  ## task2
 
 The program in C++ is designed to determine what number the user entered: positive, negative, or zero.
 The user inputs a floating-point number of type double. After that, the program checks the value using conditional operators:
@@ -18,7 +25,7 @@ The user inputs a floating-point number of type double. After that, the program 
 This approach makes it possible to quickly classify any entered number. The program uses standard input/output through cin and cout, as well as the if ... else if ... else construction for condition checking.
 The program is simple but clearly demonstrates the basic capabilities of C++: working with input, conditional expressions, and outputting the result.
 
-## task3
+  ## task3
 
 The program in C++ demonstrates calculating the length of a string manually, without using standard functions like strlen.
 First, a string is created:
@@ -30,7 +37,7 @@ Using a while loop, the program checks each character in the string until it rea
 After the loop ends, both the string itself and its length are printed. For the word "Length", the result is 6, since it contains 6 characters.
 This example shows how strings in C++ are represented as character arrays, and how a loop can be used to implement a custom length calculation.
 
-## task4
+  ## task4
 
 The program in C++ converts an integer into a string.
 The user enters a number, then the program checks several conditions:
@@ -47,7 +54,7 @@ Input: 456 → Output: "456"
 
 This example demonstrates manual conversion of numbers to strings, working with loops, conditions, and characters in C++.
 
-## task5
+  ## task5
 
 The program in C++ finds all six-digit numbers where the sum of the first three digits equals the sum of the last three digits — so-called “lucky tickets.”
 A for loop iterates through all numbers from 0 to 999999. For each number:
