@@ -1,5 +1,5 @@
-#Homework
-###task1
+# Homework
+### task1
 ![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cs.cmu.edu%2F~15110-s20%2Fslides%2Fweek6-3-recursion.pdf&psig=AOvVaw3dRM2xJRk16QvMivGc3iCO&ust=1759394873434000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCNiQ3_POgpADFQAAAAAdAAAAABAu)
 The program in C++ is designed to calculate the sum of all even numbers in a given range. The user enters two numbers, and if the first is greater than the second, the program automatically swaps them using std::swap to ensure the correct order of the boundaries.
 
