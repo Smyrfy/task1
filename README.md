@@ -1,5 +1,6 @@
 # Homework
-
+*Welcome to my repository!  
+Here I have completed assignments for the course "Algorithms and Data Structures", where I described the working principle of each of the five tasks below.*
 ### Table of Contents
 - [Task 1](#task1)
 - [Task 2](#task2)
