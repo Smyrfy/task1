@@ -1,6 +1,9 @@
 # Homework
 *Welcome to my repository!  
 Here I have completed assignments for the course "Algorithms and Data Structures", where I described the working principle of each of the five tasks below.*
+
+<img src="https://github.com/Smyrfy/picture/raw/main/IMG_20251001_202620_143.jpg" alt="Moon and stars" width="1000">
+
 ### Table of Contents
 - [Task 1](#task1)
 - [Task 2](#task2)
@@ -78,6 +81,8 @@ The program demonstrates:
 - extracting digits using division and modulo,
 - conditional statements and formatted output.
 
+<p align="center"><img src="https://github.com/Smyrfy/picture/raw/main/a12ac7f72946ef74e08d77e13b0e936d.jpg" alt="Cat" width="500"></p>
 
+ ### *<p align="center"> Have a nice day:) </p>*
 
 
