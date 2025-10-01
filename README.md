@@ -20,15 +20,15 @@ The program is simple but clearly demonstrates the basic capabilities of C++: wo
 
 ## task3
 
-The program in C++ is designed to work with strings. It outputs a given string and calculates its length.
-In the code, a string is created as a constant character array:
+The program in C++ demonstrates calculating the length of a string manually, without using standard functions like strlen.
+First, a string is created:
 
-const char* str = "dowgwww";
+const char* str = "Length";
 
-Then the program prints this string using cout.
-To determine the length, the standard function strlen from the <cstring> library is used. It counts the number of characters in the string until the terminating \0. In this case, the length of the word "dowgwww" is 7 characters.
-After that, the program outputs a message with the result, showing the number of characters in the string.
-This example demonstrates basic work with C-strings (const char*), the use of the <cstring> library, and the strlen function to calculate string length.
+Then a variable length is declared to serve as a counter.
+Using a while loop, the program checks each character in the string until it reaches the special terminating symbol '\0'. For each character, the counter is increased by 1. In this way, the program counts the total number of characters in the string.
+After the loop ends, both the string itself and its length are printed. For the word "Length", the result is 6, since it contains 6 characters.
+This example shows how strings in C++ are represented as character arrays, and how a loop can be used to implement a custom length calculation.
 
 ## task4
 
