@@ -1,11 +1,17 @@
 #include <iostream>
-#include <cstring>
-
 using namespace std;
 
 int main() {
-    const char* str = "dowgwww";
-    cout << "line: " << str << endl;
-    cout << "dowg line: " << strlen(str) << " lines" << endl;
+    const char* str = "Length";
+
+    int length = 0;
+
+    while (str[length] != '\0') {
+        length++;
+    }
+
+    cout << "Row: " << str << endl;
+    cout << "Row length: " << length << " symbols." << endl;
+
     return 0;
 }
