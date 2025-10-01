@@ -36,6 +36,7 @@ The program in C++ converts an integer into a string.
 The user enters a number, then the program checks several conditions:
 - If the number is 0, the string becomes "0".
 - If the number is negative, the flag isNegative = true is set, and the number is made positive for further processing.
+  
 Next, a while loop extracts the last digit of the number using num % 10, converts it to a character, and adds it to the beginning of the string. Then the number is divided by 10 (num /= 10) to move to the next digit.
 After the loop, if the number was negative, the "-" character is added to the start of the string.
 As a result, the user gets the string representation of the number, for example:
