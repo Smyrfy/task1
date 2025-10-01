@@ -9,21 +9,6 @@
 
 ---
 
-### task1
-The program in C++ is designed to calculate the sum of all even numbers in a given range. ...
-
-### task2
-The program in C++ is designed to determine what number the user entered: positive, negative, or zero. ...
-
-### task3
-The program in C++ demonstrates calculating the length of a string manually, without using standard functions like strlen. ...
-
-### task4
-The program in C++ converts an integer into a string. ...
-
-### task5
-The program in C++ finds all six-digit numbers where the sum of the first three digits equals the sum of the last three digits — so-called “lucky tickets.” ...
-
    ## task1
 The program in C++ is designed to calculate the sum of all even numbers in a given range. The user enters two numbers, and if the first is greater than the second, the program automatically swaps them using std::swap to ensure the correct order of the boundaries.
 The calculation is performed by the function even_sum, which is implemented recursively. It checks each number: if it is even — adds it to the sum and moves to the next even one; if it is odd — skips it and moves further.
