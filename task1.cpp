@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 
 int even_sum(int a, int b) {
     if (a > b) {
